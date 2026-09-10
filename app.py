@@ -1,5 +1,5 @@
 def predict_result(marks):
-    if marks >= 90:
+    if marks >= 95:
         return "PASS"
     else:
         return "FAIL"
