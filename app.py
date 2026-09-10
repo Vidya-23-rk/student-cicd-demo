@@ -1,5 +1,5 @@
 def predict_result(marks):
-    if marks >= 40:
+    if marks >= 90:
         return "PASS"
     else:
         return "FAIL"
@@ -12,3 +12,5 @@ if __name__ == "__main__":
 
     print("Student Marks:", marks)
     print("Predicted Result:", result)
+    
+    
