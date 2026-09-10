@@ -10,4 +10,4 @@ def test_fail_student():
 
 
 def test_boundary():
-    assert predict_result(40) == "PASS"
+    assert predict_result(90) == "PASS"
